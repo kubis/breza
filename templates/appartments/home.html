@@ -1,0 +1,11 @@
+{% extends 'layouts/a.html' %}
+
+{% block content %}
+
+{% for appartment in appartments %}
+
+{% include 'appartments/appartment.html' %}
+
+{% endfor %}
+
+{% endblock %}
